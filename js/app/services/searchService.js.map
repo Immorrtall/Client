@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "searchService.js",
+  "sourceRoot": "..\\..\\..\\app\\services",
+  "sources": [
+    "searchService.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA;;EAAA,GAAA,GAAM,OAAO,CAAC,MAAR,CAAe,OAAf;;EAEN,GAAG,CAAC,OAAJ,CAAY,eAAZ,EAA6B;IAAC,eAAD,EAAkB,SAAC,aAAD;MAC7C,IAAI,CAAC,KAAL,GAAa;MACb,IAAI,CAAC,WAAL,GAAmB,SAAC,IAAD;AACjB,eAAO,aAAA,CAAc,IAAd,CAAmB,CAAC,IAApB,CAAyB,SAAC,IAAD;AAC9B,iBAAO,IAAI,CAAC;QADkB,CAAzB;MADU;IAF0B,CAAlB;GAA7B;AAFA"
+}

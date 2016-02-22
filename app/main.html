@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My AngularJS App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div ng-include="'../templates/navbar.html'"></div>
+<main>
+    <div class="col-md-9 col-xs-12 col-sm-10" ng-show="(['all', 'user','id'].indexOf(destination) !== -1)" ng-include="'../templates/content.html'"></div>
+    <div ng-if="destination == 'user' || destination == 'id'" class="col-md-3" ng-include="'../templates/user_side.html'"></div>
+    <div ng-if="destination != 'user' && destination != 'id'"  class="col-md-3" ng-include="'../templates/tagsCloud.html'"></div>
+</main>
+<script src="components/version/version.js"></script>
+<script src="components/version/version-directive.js"></script>
+<script src="components/version/interpolate-filter.js"></script>
+</body>
+</html>
